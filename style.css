@@ -1,10 +1,4 @@
 @charset "UTF-8";
-@media screen and(min-width: 768px) {
-    html {
-        font-size: 18px;
-}   
-}
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -26,7 +20,7 @@ header img{
 }
 header h1{
     color: white;
-    font-size: 4.6vw;
+    font-size: min(2.5em, 4.5vw);
     font-weight: bolder;
     text-align: center;
     margin-bottom: 15px;
@@ -39,7 +33,7 @@ nav a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 2.3vw;
+    font-size: min(1em, 2.3vw);
     padding: 5px;
 }
 nav a:hover{
@@ -67,28 +61,11 @@ main p{
     text-align: justify;
     text-indent: 7px;
     line-height: 2em;
-    font-size: 3.4vw;
+    font-size: min(1em, 2.8vw);
 }
 main h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.5vw;
+    padding: 5px;
+    font-size: min(1.5em, 5vw);
     font-weight: bold;
-}
-.galeria{
-    width: 30rem;
-    height: 30rem;
-    margin: auto;
-    position: relative;
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: mandatory;
-}
-.galeria img{
-    width: 100%;
-    height: 100%;
-    position: sticky;
-    left: 0;
-    flex-shrink: 0;
-    object-fit: cover;
-    scroll-behavior: smooth;
 }
