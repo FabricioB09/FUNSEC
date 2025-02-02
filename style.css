@@ -94,3 +94,13 @@ footer a:hover{
     border-radius: 3px;
     transition-duration: 0.2s;
 }
+.slide-wrapper .image-list{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+.slide-wrapper .image-list .image-item{
+    width: 325px;
+    height: 400px;
+    object-fit: cover;
+}
