@@ -70,14 +70,18 @@ main h2{
     font-weight: bold;
 }
 .image__conteiner{
-    
+    display:grid;
+    grid-template-columns:repeat(auto,minmax(200px, 1fr));
+
 }
 .single-image{
     width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
+    height:100%;
+    object-fit: cover;
+    display: block;
     overflow: hidden;
 }
+
 footer{
     background-color: black;
     color: white;
