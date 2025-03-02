@@ -70,11 +70,11 @@ main h2{
     font-weight: bold;
 }
 .conteiner{
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 0.3fr));
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     justify-content: center;
+    gap: 10px;
 }
 .item img{
     width: 100%;
