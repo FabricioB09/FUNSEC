@@ -70,6 +70,8 @@ main h2{
     font-weight: bold;
 }
 .conteiner{
+    max-width: 1200px;
+    max-height: 1200px;
     display: grid;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     gap: 10px;
