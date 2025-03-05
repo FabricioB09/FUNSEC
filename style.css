@@ -83,14 +83,16 @@ main h2{
 .itemh img{
     width: 100%;
     height: 100%;
+    aspect-ratio: 1;
     object-fit: cover;
-
+    object-position:center;
 }
 .items img{
     width: 100%;
     height: 100%;
+    aspect-ratio: 1;
     object-fit: cover;
-
+    object-position:center;
 }
 footer{
     background-color: black;
