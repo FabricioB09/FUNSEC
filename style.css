@@ -70,21 +70,27 @@ main h2{
     font-weight: bold;
 }
 .conteiner{
-    /* max-width: 100vw;
-    max-height: 100vh; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 10px;
     
 }
-/* .item{
-    width: 580px;
-    height: 300px;
-    object-fit: contain; 
-} */
 .item img{
     width: 100%;
     height: 100%;
+
+}
+.itemh img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 footer{
     background-color: black;
